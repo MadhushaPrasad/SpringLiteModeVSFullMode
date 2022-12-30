@@ -1,8 +1,5 @@
 package main;
 
-import bean.BeanThree;
-import bean.BeanTwo;
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
@@ -14,7 +11,7 @@ import org.springframework.context.annotation.Configuration;
 //})
 public class AppConfig {
 
-    //Full Mode
+    /*//Full Mode
 
     @Bean
     public BeanTwo btwo() {
@@ -37,5 +34,5 @@ public class AppConfig {
     public BeanThree bthree() {
         return new BeanThree();
     }
-
+*/
 }
