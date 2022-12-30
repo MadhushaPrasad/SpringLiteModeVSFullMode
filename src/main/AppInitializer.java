@@ -9,7 +9,7 @@ public class AppInitializer {
         ctx.refresh();
         ctx.registerShutdownHook();
 
-        //context innovocation
+        //context innovation
         //Object bean = ctx.getBean(BeanOne.class);
     }
 
