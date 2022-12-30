@@ -1,5 +1,6 @@
 package main;
 
+import bean.BeanOne;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class AppInitializer {
@@ -9,7 +10,7 @@ public class AppInitializer {
         ctx.refresh();
         ctx.registerShutdownHook();
 
-         Object bean = ctx.getBean();
+        Object bean = ctx.getBean(BeanOne.class);
     }
 
 }
