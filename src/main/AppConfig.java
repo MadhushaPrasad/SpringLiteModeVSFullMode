@@ -22,6 +22,14 @@ public class AppConfig {
         //satisfy interbean dependancies
         //manage lifecycle of bthree1 and bthree2
 
+        //call below method to get bean and check the lifecycle
+        BeanThree bthree1 = bthree();
+        BeanThree bthree2 = bthree();
+
+        //check the lifecycle of bthree1 and bthree2
+        System.out.println(bthree1);
+        System.out.println(bthree2);
+
         return new BeanTwo();
     }
 
